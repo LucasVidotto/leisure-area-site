@@ -28,6 +28,13 @@ body{
     margin-bottom:10px;
     padding-bottom:10px;
 }
+
+.sep{
+
+    text-align: center;
+    position: relative;
+    
+}
 .imag{
     height: 100%;
     width: 100%;
@@ -42,12 +49,20 @@ body{
 }
 
 .links{
-    background: #0095f6;
+    background:rgb(0, 255, 0);
     color:#ffffff;
     padding: 8px;
     border-radius: 4px;
     padding-left: 10px;
-    margin-left: 5px;
+    margin-left: 30px;
+
+    cursor: pointer;
+    transition: .5s ease all;/*cuida da transilção de uma animação para outra*/
+}
+
+.links:hover{
+    background: black;
+    color:#ffffff;
 }
 
 footer{

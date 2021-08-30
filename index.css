@@ -29,14 +29,21 @@ body{
     padding-bottom:10px;
 }
 
+.sep{
+
+    text-align: center;
+    position: relative;
+    
+}
+
 
 .links{
-    background: #0095f6;
+    background:rgb(0, 255, 0);
     color:#ffffff;
     padding: 8px;
     border-radius: 4px;
     padding-left: 10px;
-    margin-left: 5px;
+    margin-left: 30px;
 
     cursor: pointer;
     transition: .5s ease all;/*cuida da transilção de uma animação para outra*/
@@ -57,7 +64,8 @@ button{
     margin: 10px;
     padding: 10px;
     position: relative;
-    
+    width: 95%;
+    height: 400px;
     float:unset;
     background-color: #fffafa;
     opacity: 0.6;
@@ -70,15 +78,17 @@ p{
     color:black;
     font-family: Arial, Helvetica, sans-serif;
     align-self: center;
+    font-size: 1.5rem;
+    padding-bottom: 30px;
 }
-.group_img{
+/*.group_img{
     
     display: flex;
     background-color: #fffafa;
     opacity: 0.8;
     
 
-}
+}*/
 
 /*.perfil{
     
@@ -108,8 +118,9 @@ footer{
     background-color: #0095f6;
     bottom: 0;
     left: 0;
-    height: 20px;
+    height: 30px;
     position: fixed;
     width: 100%;
+    opacity: 0.6;
   }
 

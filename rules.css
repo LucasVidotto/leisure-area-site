@@ -53,34 +53,85 @@ button{
 
     
 }
-.cent{
+.topp{
+    width: 100%;
+    height: 360px;
+
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    opacity: 0.8;
+
+}
+
+.page_bottom{
+    
+
+    border-radius: 5%;
+    opacity: 0.8;
+    height: 200px;
+}
+.page_dir{
     margin: 10px;
     padding: 10px;
+    
+    width: 45%;
+    height: 400px;
     position: relative;
-    
-    float:unset;
+    float:right;
     background-color: #fffafa;
-    opacity: 0.6;
+    border-radius: 5%;
+    opacity: 0.8;
 }
-p{
-    text-align: center;
+
+.page_esq{
+    margin: 10px;
+    padding: 10px;
     
+    width: 45%;
+    height: 300px;
+    position: relative;
+    float:left;
+    background-color: #fffafa;
+    border-radius: 5%;
+    opacity: 0.8;
+}
+.page_bott{
+    margin: 10px;
+    padding: 10px;
+    
+    width: 45%;
+    height: 250px;
+    position: relative;
+    float:left;
+    background-color: #fffafa;
+    border-radius: 5%;
+    opacity: 0.8;
+}
+
+
+h1{
+    text-align: center;
+    font-family: "Open Sans Condesed", sans-serif;
 }
 .pag{
     color:black;
     font-family: Arial, Helvetica, sans-serif;
     align-self: center;
 }
+
+.numbers{
+    
+    padding-left:2% ;
+}
 .group_img{
     
     display: flex;
-    background-color: #fffafa;
-    opacity: 0.8;
     
 
 }
 
-/*.perfil{
+.perfil{
     
     width: 500px;
     height: 500px;
@@ -96,7 +147,7 @@ p{
     left:0%;
     position:relative;
     border-radius: 0%;
-}*/
+}
 .imag{
     width: 200px;
     height: 150px;
@@ -106,6 +157,7 @@ p{
 footer{
     border-top: 1px solid #333;
     background-color: #0095f6;
+    text-align: center;
     bottom: 0;
     left: 0;
     height: 20px;

@@ -1,0 +1,194 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+body{
+
+    width: 100%;
+    min-width: 100vh;
+    background-image: url("image/bac.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper{
+    display:flex;/* os elementos do container ficaram em linha*/
+    align-items:center ;/*alinhamento vertical dos itens*/
+    justify-content: start;
+    margin-top: 100px;
+    width: 60%;
+    height: 100vh;
+    padding: 60px;
+    
+}
+
+.phone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.phone img{
+    height: 40rem;
+}
+
+.continue{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 0px;
+    flex-direction: column;/*em forma de coluna(um abaixo do outro)*/
+    width: 50%;
+    min-height:30rem;
+}
+
+.containers{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background: #ffffff;
+    opacity: 0.7;
+    width: 80%;
+    padding: 1.3rem 0;
+    border: 1px solid lightgray;
+}
+
+.containers:nth-child(1){/*pega as divs filhos por ordem*/
+    min-height: 19rem;
+}
+
+.logo{
+    height: 3rem;
+}
+
+.profile-photo{
+    width: 100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    overflow: hidden;/*para não exceder o tamanho(no caso a imagem*/
+}
+
+.profile-photo{
+    height: 6rem;
+}
+
+.login{
+    background: #0095f6;
+    color:#ffffff;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.logout{
+    color: #0095f6;
+    margin-top: 1rem;
+}
+
+.not-account{
+    color:#262626;
+}
+
+.link-blue{
+    color: #0095f6;
+}
+
+.app-plays{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1.3rem 0;
+}
+.download2{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;/*espaçamento iguais tanto de ambos lados*/
+    align-items: center;
+    padding: 1rem;
+}
+
+.contact{
+    height: 5rem;
+    width: 10rem;
+    background-size: cover;
+}
+
+.contact:nth-child(1){
+    background-image: url('./image/face.png');
+}
+.contact:nth-child(2){
+    background-image: url('./image/whats.png');
+}
+
+.contact:nth-child(3){
+    background-image: url('./image/insta.jpg');
+}
+.download{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;/*espaçamento iguais tanto de ambos lados*/
+    align-items: center;
+    padding: 1rem;
+}
+
+.app-download{
+    height: 3rem;
+    width: 10rem;
+    background-size: cover;
+}
+
+.app-download:nth-child(1){
+    background-image: url('./aple.png');
+}
+.app-download:nth-child(2){
+    background-image: url('./google.png');
+}
+
+@media (max-width: 1126px){
+    .wrapper{
+        width: 90%;
+    }
+}
+
+@media (max-width: 1024px){
+    .wrapper{
+        width: 90%;
+    }
+}
+
+@media (max-width:650px){
+
+    body{
+        background:#ffffff;
+    }
+    .wrapper{
+        width: 90%;
+
+    }
+
+    .phone{
+        display: none;
+    }
+    .continue{
+        width: 100%;
+    }
+
+    .containers{
+        border: 1px solid transparent;
+    }
+}
